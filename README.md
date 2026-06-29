@@ -28,7 +28,9 @@ The script was written using AI
 - GTK 3
 - PyGObject (`python3-gobject`)
 
-**Install dependencies on Alpine/postmarketOS:**
+
+**Install dependencies on Alpine/postmarketOS and run:**
 ```bash
 sudo apk add python3 py3-gobject3 gtk+3.0
-
+curl -o ~/.local/bin/grid-launcher.py https://raw.githubusercontent.com/yourusername/touch-grid-launcher/main/grid-launcher.py
+chmod +x ~/.local/bin/grid-launcher.py ~/.local/bin/app-launcher.sh
