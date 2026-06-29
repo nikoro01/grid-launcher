@@ -31,6 +31,7 @@ The script was written using AI
 
 **Install dependencies on Alpine/postmarketOS and run:**
 ```bash
-sudo apk add python3 py3-gobject3 gtk+3.0
-curl -o ~/.local/bin/grid-launcher.py https://raw.githubusercontent.com/yourusername/touch-grid-launcher/main/grid-launcher.py
-chmod +x ~/.local/bin/grid-launcher.py ~/.local/bin/app-launcher.sh
+sudo apk add python3 py3-gobject3 gtk+3.0 git
+git clone https://github.com/nikoro01/grid-launcher.git
+cd grid-launcher
+chmod +x ~/grid-launcher.py
