@@ -1,9 +1,10 @@
 # grid-launcher
 Lightweight menu for PostmarketOS devices running niri/hypr/etc
 # 📱 Touch Grid Launcher for Linux Mobile
+<img width="769" height="760" alt="image" src="https://github.com/user-attachments/assets/6c0bc2b9-9725-4782-85fe-4326a65ec743" />
 
 A lightweight, touch-optimized application launcher built with **Python** and **GTK3**. Designed specifically for Wayland compositors (like [Niri](https://github.com/YaLTeR/niri)) and mobile Linux distributions (like [postmarketOS](https://postmarketos.org/)).
-
+Works on both smartphones and PCs.
 If you are tired of desktop-oriented launchers that are hard to use with a finger, this simple grid launcher is for you.
 
 ![Python](https://img.shields.io/badge/Python-3.6+-blue)
